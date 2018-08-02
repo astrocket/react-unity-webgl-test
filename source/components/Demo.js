@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Unity, { UnityContent } from "../../../React-Unity-WebGL/";
+import Unity, { UnityContent } from "react-unity-webgl";
 
 export default class Demo extends Component {
   constructor(props) {
@@ -11,8 +11,8 @@ export default class Demo extends Component {
     this.speed = 30;
 
     this.unityContent = new UnityContent(
-      "unity_project_build/Build.json",
-      "unity_project_build/UnityLoader.js"
+      "/static/unity_project_build/Build.json",
+      "/static/unity_project_build/UnityLoader.js"
     );
 
     this.unityContent.on("Say", message => {
