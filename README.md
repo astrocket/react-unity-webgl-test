@@ -27,6 +27,6 @@ When building content for the web, you might need to communicate with elements o
 ```sh
 $ git clone git@github.com:astrocket/react-unity-webgl-test.git
 
-$ cd ~/react-unity-webgl-test
+$ cd react-unity-webgl-test
 $ npm install && npm run dev
 ```
