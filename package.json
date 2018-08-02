@@ -4,9 +4,9 @@
   "description": "Test envoirment for React Unity WebGL",
   "main": "compiled/bundle.js",
   "scripts": {
-    "test": "webpack --mode development",
     "dev": "next",
-    "start": "webpack --watch --mode development"
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",

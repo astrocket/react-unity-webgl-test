@@ -26,3 +26,4 @@ unity_project/**/*.pidb.meta
 unity_project/**/*.pdb.meta
 unity_project/**/sysinfo.txt
 unity_project/**/*.meta
+.next

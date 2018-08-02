@@ -25,14 +25,8 @@ When building content for the web, you might need to communicate with elements o
 # Getting started
 
 ```sh
-$ git clone https://github.com/jeffreylanters/react-unity-webgl-test ~/react-unity-webgl-test
-$ git clone https://github.com/jeffreylanters/react-unity-webgl ~/react-unity-webgl
-
-$ cd ~/react-unity-webgl
-$ npm install
-$ npm run compile
+$ git clone git@github.com:astrocket/react-unity-webgl-test.git
 
 $ cd ~/react-unity-webgl-test
-$ npm install
-$ npm start
+$ npm install && npm run dev
 ```
